@@ -20,7 +20,7 @@ const Player: React.VFC<Props> = ({ token }) => {
     [token.access_token],
   );
 
-  const [deviceName, setDeviceName] = useState("Spotify Web Player NowPlaying");
+  const [deviceName, setDeviceName] = useState("Play Spotify in Browser for NowPlaying");
 
   return (
     <WebPlaybackSDK

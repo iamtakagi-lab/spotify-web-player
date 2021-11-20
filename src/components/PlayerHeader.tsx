@@ -32,7 +32,7 @@ export const PlayerHeader: React.VFC<Props> = ({
         </a>
         <a
           className={styles.githubLink}
-          href="https://github.com/iamtakagi/spotify-web-player-nowplaying"
+          href="https://github.com/iamtakagi/play-spotify-in-browser-for-nowplaying"
           target="_blank"
           rel="noopener noreferer">
           GitHub (App)

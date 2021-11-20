@@ -1,5 +1,5 @@
 {
-  "name": "spotify-web-player-nowplaying",
+  "name": "play-spotify-in-browser-for-nowplaying",
   "version": "1.0.0",
   "private": true,
   "scripts": {

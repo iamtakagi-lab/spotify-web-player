@@ -3,7 +3,7 @@ import styles from "../styles/index.module.css";
 export default function Index() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.pageTitle}>Spotify Web Player NowPlaying</h1>
+      <h1 className={styles.pageTitle}>Play Spotify in Browser for NowPlaying</h1>
       <img
         className={styles.logo}
         src="/react-spotify-web-playback-sdk-logo.png"
@@ -24,7 +24,7 @@ export default function Index() {
           className={styles.githubLink}
           target="_blank"
           rel="noopner noreferer"
-          href="https://github.com/iamtakagi/spotify-web-player-nowplaying">
+          href="https://github.com/iamtakagi/play-spotify-in-browser-for-nowplaying">
           Repository (App)
         </a>
       </div>

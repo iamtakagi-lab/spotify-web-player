@@ -36,4 +36,4 @@ export const TWITTER_CK = "";
 export const TWITTER_CS = "";
 export const TWITTER_AT = "";
 export const TWITTER_ATS = "";
-export const TWEET_ENDPOINT = "http://localhost:8080/api/tweet"
+export const TWEET_ENDPOINT = "http://localhost:8080/api/tweet";
