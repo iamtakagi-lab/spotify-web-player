@@ -3,8 +3,10 @@
 
 ほとんどの機能が [こちら](https://github.com/y-hiraoka/react-spotify-web-playback-sdk/tree/main/example) のフォークです。
 
-<img width="1920" alt="chrome_2Fh5FFWLtx" src="https://user-images.githubusercontent.com/46530214/142719886-ff347ceb-0275-480c-b1f2-fc5ea87c7e6f.png">
-<img width="1920" alt="chrome_hfcCQkv3Hs" src="https://user-images.githubusercontent.com/46530214/142719911-b52ff8bc-7c83-4bbc-81aa-29260a2f32a2.png">
+<img width="1920" alt="chrome_QTS3L9wgHG" src="https://user-images.githubusercontent.com/46530214/142721199-dbb42cd6-dbd4-4e86-bd87-ed877dff9631.png">
+<img width="1920" alt="chrome_EpRbknKYHt" src="https://user-images.githubusercontent.com/46530214/142721222-689fabbb-fafe-4c1b-9bd9-297e5c73703c.png">
+<img width="311" alt="Spotify_QdNPic8jB7" src="https://user-images.githubusercontent.com/46530214/142721239-829b1395-867e-49a0-8f36-39e80b8fe277.png">
+
 
 
 ## セットアップ
