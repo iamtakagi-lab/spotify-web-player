@@ -11,7 +11,6 @@ const handler: NextApiHandler = async (req, res) => {
   if (req.method === "POST") {
     const current_track = req.body
     if(!current_track) return
-    console.log(TWITTER_CK)
     const uploadClient = new Twitter({
         subdomain: 'upload',
         consumer_key: TWITTER_CK,
