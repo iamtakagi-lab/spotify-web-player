@@ -1,4 +1,4 @@
-# spotify-web-player-nowplaying
+# play-spotify-in-browser-for-nowplaying
 ブラウザでSpotifyの曲を再生できる物にNowPlaying機能を実装した物です。ローカル環境での動作を想定しています。リモート環境での動作は想定していません。ローカルで立ち上げ、ブラウザで使用します。
 
 ほとんどの機能が [こちら](https://github.com/y-hiraoka/react-spotify-web-playback-sdk/tree/main/example) のフォークです。
