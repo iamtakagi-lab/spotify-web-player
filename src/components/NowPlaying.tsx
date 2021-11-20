@@ -13,11 +13,6 @@ export const NowPlaying: React.VFC<{}> = ({}) => {
         appearance: "error",
         autoDismiss: true,
       });
-    if (!playbackState)
-      return addToast(`再生中の曲を取得できませんでした`, {
-        appearance: "error",
-        autoDismiss: true,
-      });
     const { current_track } = playbackState.track_window;
     // Tweet NowPlaying
     const waiting_toast_id = uuid();
