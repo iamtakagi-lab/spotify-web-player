@@ -63,4 +63,4 @@ yarn build && yarn start
 ```
 
 ## Licence
-iamtakagi/spotify-web-player-nowplaying is provided under the MIT license.
+iamtakagi/play-spotify-in-browser-for-nowplaying is provided under the MIT license.
