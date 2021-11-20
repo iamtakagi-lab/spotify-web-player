@@ -20,7 +20,7 @@ const Player: React.VFC<Props> = ({ token }) => {
     [token.access_token],
   );
 
-  const [deviceName, setDeviceName] = useState("Spotify Player on Next.js");
+  const [deviceName, setDeviceName] = useState("Spotify Web Player NowPlaying");
 
   return (
     <WebPlaybackSDK
