@@ -9,7 +9,7 @@ import {
 
 const handler: NextApiHandler = async (req, res) => {
   if (req.method === "POST") {
-    const current_track = req.body
+    const current_track = req.body as Spotify.Track
     if(!current_track) return
     const uploadClient = new Twitter({
         subdomain: 'upload',
@@ -37,7 +37,7 @@ const handler: NextApiHandler = async (req, res) => {
     })
     // Tweet NowPlaying
     const { id } = await userClient.post("statuses/update", {
-        status: `#NowPlaying ${current_track.name} - ${current_track.artists.map((artist: Spotify.Artist) => artist.name).join(', ')} https://open.spotify.com/track/${current_track.id}`,
+        status: `#NowPlaying ${current_track.name} - ${current_track.artists.map((artist: Spotify.Artist) => artist.name).join(', ')} (${current_track.album.name}) https://open.spotify.com/track/${current_track.id}`,
         media_ids: media_id_string,
     })
     res.json({id})
