@@ -1,11 +1,11 @@
 {
   "name": "play-spotify-in-browser-for-nowplaying",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 8080",
+    "dev": "next dev -p 3000",
     "build": "next build",
-    "start": "next start -p 8080"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "next": "^10.2.0",
