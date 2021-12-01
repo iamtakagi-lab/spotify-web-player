@@ -11,7 +11,9 @@
 
 ## セットアップ
 
-## 1. src/common/constant.ts を編集
+## 1. src/common/constant.example.ts を適宣編集
+`constant.ts` として保存すること
+
 [Spotify API](https://developer.spotify.com/dashboard) と [Twitter API](https://developer.twitter.com) から API Key を取得し、ペーストしてください。
 [Spotify API](https://developer.spotify.com/dashboard) のリダイレクトURLの設定も忘れないでください。
 ```ts
