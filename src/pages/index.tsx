@@ -3,7 +3,7 @@ import styles from "../styles/index.module.css";
 export default function Index() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.pageTitle}>Play Spotify in Browser for NowPlaying</h1>
+      <h1 className={styles.pageTitle}>Spotify Web Player</h1>
       <img
         className={styles.logo}
         src="/react-spotify-web-playback-sdk-logo.png"

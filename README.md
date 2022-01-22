@@ -4,8 +4,15 @@
 
 ## Edit settings.ts
 
-- [Spotify API](https://developer.spotify.com/dashboard) と [Twitter API](https://developer.twitter.com) から API Key を取得し、ペーストしてください。
-- https://hoge.mstdn.com/settings/applications からアプリケーションを作成したのち、アクセストークンをペーストしてください。
+### Spotify
+[Spotify API](https://developer.spotify.com/dashboard) から `SPOTIFY_CLIENT_ID` `SPOTIFY_CLIENT_SECRET` を取得し、ペーストしてください。
+
+### Twitter
+[Twitter API](https://developer.twitter.com) から API Key を取得し、ペーストしてください。
+
+### Mastodon
+https://hoge.mstdn.com/settings/applications からアプリケーションを作成したのち、アクセストークンをペーストしてください。
+
 ```ts
 /* Spotify */
 export const SPOTIFY_SCOPES = [
@@ -29,7 +36,6 @@ export const SPOTIFY_SCOPES = [
   "user-read-email",
   "user-read-private",
 ] as const;
-
 export const SPOTIFY_CLIENT_ID = "";
 export const SPOTIFY_CLIENT_SECRET = "";
 export const SPOTIFY_REDIRECT_URI = "http://localhost:8080/player";

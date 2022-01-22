@@ -7,7 +7,7 @@ const MyApp: React.VFC<AppProps> = ({ Component, pageProps }) => {
   return (
     <ToastProvider autoDismissTimeout={10000}>
       <Head>
-        <title>Play Spotify in Browser for NowPlaying</title>
+        <title>Spotify Web Player</title>
       </Head>
       <Component {...pageProps} />
     </ToastProvider>
