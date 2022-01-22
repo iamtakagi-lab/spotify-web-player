@@ -7,7 +7,7 @@ import {
   SPOTIFY_CLIENT_ID,
   SPOTIFY_CLIENT_SECRET,
   SPOTIFY_REDIRECT_URI
-} from "../common/constant";
+} from "../../settings";
 import styles from "../styles/player.module.css";
 import { PlayerHeader } from "../components/PlayerHeader";
 import { PlayerContent } from "../components/PlayerContent";

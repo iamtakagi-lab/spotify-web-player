@@ -5,7 +5,7 @@ import {
   useErrorState,
   useWebPlaybackSDKReady,
 } from "react-spotify-web-playback-sdk";
-import { SPOTIFY_PLAYER_URL } from "../common/constant";
+import { SPOTIFY_PLAYER_URL } from "../../settings";
 import styles from "./StateConsumer.module.css";
 import { StateSummary } from "./StateSummary";
 

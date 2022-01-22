@@ -6,7 +6,7 @@ import {
   SPOTIFY_CLIENT_ID,
   SPOTIFY_REDIRECT_URI,
   SPOTIFY_SCOPES,
-} from "../../common/constant";
+} from "../../../settings";
 
 const handler: NextApiHandler = (req, res) => {
   if (req.method === "GET") {

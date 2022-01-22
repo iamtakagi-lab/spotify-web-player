@@ -1,13 +1,3 @@
-# spotify-web-player
-
-## Setup
-
-## Edit settings.ts
-
-- [Spotify API](https://developer.spotify.com/dashboard) と [Twitter API](https://developer.twitter.com) から API Key を取得し、ペーストしてください。
-- [Spotify API](https://developer.spotify.com/dashboard) と [Twitter API](https://developer.twitter.com) から API Key を取得し、ペーストしてください。
-- https://hoge.mstdn.com/settings/applications からアプリケーションを作成したのち、アクセストークンをペーストしてください。
-```ts
 /* Spotify */
 export const SPOTIFY_SCOPES = [
   // "ugc-image-upload",
@@ -50,12 +40,3 @@ export const TWEET_ENDPOINT = "http://localhost:8080/api/tweet";
 export const MASTODON_TOKEN = "";
 export const MASTODON_INSTANCE_DOMAIN = "mstdn.iamtakagi.net";
 export const TOOT_ENDPOINT = "http://localhost:8080/api/toot";
-```
-
-## Start
-```console
-yarn build && yarn start
-```
-
-## Licence
-iamtakagi/spotify-web-player is provided under the MIT license.
