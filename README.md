@@ -8,10 +8,12 @@
 [Spotify API](https://developer.spotify.com/dashboard) から `SPOTIFY_CLIENT_ID` `SPOTIFY_CLIENT_SECRET` を取得し、ペーストしてください。
 
 ### Twitter
-[Twitter API](https://developer.twitter.com) から API Key を取得し、ペーストしてください。
+[Twitter API](https://developer.twitter.com) から `TWITTER_CK` `TWITTER_CS` `TWITTER_AT` `TWITTER_ATS` を取得し、ペーストしてください。\
+`TWITTER_SCREEN_NAME` に、Twitter ID を入力してください。
 
 ### Mastodon
-https://hoge.mstdn.com/settings/applications からアプリケーションを作成したのち、アクセストークンをペーストしてください。
+https://hoge.mstdn.com/settings/applications からアプリケーションを作成したのち、アクセストークン `MASTODON_TOKEN` をペーストしてください。\
+`MASTODON_INSTANCE_DOMAIN` に、インスタンスのドメインを入力してください。
 
 ```ts
 /* Spotify */
