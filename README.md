@@ -5,7 +5,6 @@
 ## Edit settings.ts
 
 - [Spotify API](https://developer.spotify.com/dashboard) と [Twitter API](https://developer.twitter.com) から API Key を取得し、ペーストしてください。
-- [Spotify API](https://developer.spotify.com/dashboard) と [Twitter API](https://developer.twitter.com) から API Key を取得し、ペーストしてください。
 - https://hoge.mstdn.com/settings/applications からアプリケーションを作成したのち、アクセストークンをペーストしてください。
 ```ts
 /* Spotify */
