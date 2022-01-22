@@ -15,6 +15,7 @@
 https://hoge.mstdn.com/settings/applications からアプリケーションを作成したのち、アクセストークン `MASTODON_TOKEN` をペーストしてください。\
 `MASTODON_INSTANCE_DOMAIN` に、インスタンスのドメインを入力してください。
 
+#### settings.ts
 ```ts
 /* Spotify */
 export const SPOTIFY_SCOPES = [
